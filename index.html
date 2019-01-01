@@ -5,11 +5,11 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -48,9 +48,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
@@ -83,7 +83,7 @@
 <meta property="og:title" content="村长笔记">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="村长笔记">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="村长笔记">
 
@@ -93,7 +93,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -101,7 +101,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -115,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/">
 
 
 
@@ -133,7 +133,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -144,20 +144,20 @@
   page-home">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">村长笔记</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">记录我的工作和生活</p>
       
   </div>
 
@@ -180,9 +180,39 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
-            Home
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
           </a>
         </li>
       
@@ -190,9 +220,9 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -224,20 +254,20 @@
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/01/index/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/02/hexo与next配置陆续更新/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="桃宝村村长">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="村长笔记">
     </span>
 
@@ -248,7 +278,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/01/01/index/" itemprop="url">Untitled</a></h1>
+                <a class="post-title-link" href="/2019/01/02/hexo与next配置陆续更新/" itemprop="url">hexo与next配置陆续更新</a></h1>
         
 
         <div class="post-meta">
@@ -258,10 +288,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-01T21:25:21+08:00">
-                2019-01-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-02T00:46:12+08:00">
+                2019-01-02
               </time>
             
 
@@ -300,168 +330,7 @@
       
         
           
-            <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-	<title></title>
-</head>
-<body>
-我的第一个博客
-</body>
-</html>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/31/mac中nginx安装配置/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="桃宝村村长">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="村长笔记">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/31/mac中nginx安装配置/" itemprop="url">Untitled</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-31T22:10:12+08:00">
-                2018-12-31
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew info nginx  //1、查看nginx安装信息，方便后面配置，斜体为重要信息</span><br></pre></td></tr></table></figure>
-<p>nginx: stable 1.15.8 (bottled), HEAD<br>HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server<br><a href="https://nginx.org/" target="_blank" rel="noopener">https://nginx.org/</a><br><em>Not installed</em><br>From: <a href="https://github.com/Homebrew/homebrew-core/blob/master/Formula/nginx.rb" target="_blank" rel="noopener">https://github.com/Homebrew/homebrew-core/blob/master/Formula/nginx.rb</a><br>==&gt; Dependencies<br>Required: openssl ✘, pcre ✘<br>Optional: passenger ✘<br>==&gt; Options<br>–with-passenger<br>    Compile with support for Phusion Passenger module<br>–HEAD<br>    Install HEAD version<br>==&gt; Caveats<br><em>Docroot is: /usr/local/var/www</em></p>
-<p><em>The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that<br>nginx can run without sudo.</em></p>
-<p><em>nginx will load all files in /usr/local/etc/nginx/servers/.</em></p>
-<p>To have launchd start nginx now and restart at login:<br>  brew services start nginx<br>Or, if you don’t want/need a background service you can just run:<br>  nginx<br>==&gt; Analytics<br>install: 34,967 (30 days), 111,264 (90 days), 433,817 (365 days)<br>install_on_request: 32,428 (30 days), 102,302 (90 days), 387,395 (365 days)<br>build_error: 0 (30 days)<br> 我们可以看到，nginx在本地还未安装（Not installed），nginx的来源（From），Docroot默认为/usr/local/var/www，在/usr/local/etc/nginx/nginx.conf配置文件中默认端口被配置为8080从而使nginx运行时不需要加sudo，nginx将在/usr/local/etc/nginx/servers/目录中加载所有文件，以及我们可以通过最简单的命令 ‘nginx’ 来启动nginx。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install nginx //2、正式安装</span><br></pre></td></tr></table></figure></p>
-<p>Updating Homebrew…<br>==&gt; Auto-updated Homebrew!<br>Updated 1 tap (homebrew/core).<br>==&gt; Updated Formulae<br>get_iplayer                knot-resolver              mariadb-connector-c<br>gzip                       laszip</p>
-<p>==&gt; Installing dependencies for nginx: openssl and pcre<br>==&gt; Installing nginx dependency: openssl<br>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/openssl-1.0.2q.high_sierra" target="_blank" rel="noopener">https://homebrew.bintray.com/bottles/openssl-1.0.2q.high_sierra</a>.</p>
-<p>######################################################################## 100.0%<br>==&gt; Pouring openssl-1.0.2q.high_sierra.bottle.tar.gz<br>==&gt; Caveats<br>A CA file has been bootstrapped using certificates from the SystemRoots<br>keychain. To add additional certificates (e.g. the certificates added in<br>the System keychain), place .pem files in<br>  /usr/local/etc/openssl/certs</p>
-<p>and run<br>  /usr/local/opt/openssl/bin/c_rehash</p>
-<p>openssl is keg-only, which means it was not symlinked into /usr/local,<br>because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.</p>
-<p>If you need to have openssl first in your PATH run:<br>  echo ‘export PATH=”/usr/local/opt/openssl/bin:$PATH”‘ &gt;&gt; ~/.bash_profile</p>
-<p>For compilers to find openssl you may need to set:<br>  export LDFLAGS=”-L/usr/local/opt/openssl/lib”<br>  export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
-<p>==&gt; Summary<br>🍺  /usr/local/Cellar/openssl/1.0.2q: 1,794 files, 12.1MB<br>==&gt; Installing nginx dependency: pcre<br>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/pcre-8.42.high_sierra.bottl" target="_blank" rel="noopener">https://homebrew.bintray.com/bottles/pcre-8.42.high_sierra.bottl</a></p>
-<p>######################################################################## 100.0%<br>==&gt; Pouring pcre-8.42.high_sierra.bottle.tar.gz<br>🍺  /usr/local/Cellar/pcre/8.42: 204 files, 5.3MB<br>==&gt; Installing nginx<br>==&gt; Downloading <a href="https://homebrew.bintray.com/bottles/nginx-1.15.8.high_sierra.bo" target="_blank" rel="noopener">https://homebrew.bintray.com/bottles/nginx-1.15.8.high_sierra.bo</a></p>
-<p>######################################################################## 100.0%<br>==&gt; Pouring nginx-1.15.8.high_sierra.bottle.tar.gz<br>==&gt; Caveats<br>Docroot is: /usr/local/var/www</p>
-<p>The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that<br>nginx can run without sudo.</p>
-<p>nginx will load all files in /usr/local/etc/nginx/servers/.</p>
-<p>To have launchd start nginx now and restart at login:<br>  brew services start nginx<br>Or, if you don’t want/need a background service you can just run:<br>  nginx<br>==&gt; Summary<br>🍺  /usr/local/Cellar/nginx/1.15.8: 23 files, 1.4MB<br>==&gt; Caveats<br>==&gt; openssl<br>A CA file has been bootstrapped using certificates from the SystemRoots<br>keychain. To add additional certificates (e.g. the certificates added in<br>the System keychain), place .pem files in<br>  /usr/local/etc/openssl/certs</p>
-<p>and run<br>  /usr/local/opt/openssl/bin/c_rehash</p>
-<p>openssl is keg-only, which means it was not symlinked into /usr/local,<br>because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.</p>
-<p>If you need to have openssl first in your PATH run:<br>  echo ‘export PATH=”/usr/local/opt/openssl/bin:$PATH”‘ &gt;&gt; ~/.bash_profile</p>
-<p>For compilers to find openssl you may need to set:<br>  export LDFLAGS=”-L/usr/local/opt/openssl/lib”<br>  export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
-<p>==&gt; nginx<br>Docroot is: /usr/local/var/www</p>
-<p>The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that<br>nginx can run without sudo.</p>
-<p>nginx will load all files in /usr/local/etc/nginx/servers/.</p>
-<p>To have launchd start nginx now and restart at login:<br>  brew services start nginx<br>Or, if you don’t want/need a background service you can just run:<br>  nginx</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open /usr/local/etc/nginx/   3、查看nginx 安装目录  是否如1中info所说</span><br></pre></td></tr></table></figure>
-<p><img src="mac中nginx安装配置.resources/屏幕快照 2018-12-31 下午5.47.44.png" alt="d7faabf32d3d5c04cf307b69a1757cde"></p>
-<p>成功打开nginx目录，也可以看到如info所说servers目录以及nginx.conf的配置文件（后面会用到这个配置文件）。但我们并没有找到nginx被安装到了哪里</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open /usr/local/Cellar/nginx  //其实这个才是nginx被安装到的目录</span><br></pre></td></tr></table></figure>
-<p><img src="mac中nginx安装配置.resources/屏幕快照 2018-12-31 下午5.51.58.png" alt="ae0fb12b27ae1111b54b9da6ef83f1fd"><br>会看到一个以当前安装的nginx的版本号为名称的文件夹，这个就是我们安装的nginx根目录啦。进入1.12.2_1/bin 目录，会看到nginx的可执行启动文件。</p>
-<p>　　同样的，我们在1.12.2_1/目录下还可以看到一个名字为html的快捷方式文件夹（暂且就这么叫吧），进入该目录我们会发现其实它指向的就是/usr/local/var/www目录，这个在上面我们查看的info信息中有提到（Dcroot）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">6、启动nginx，终端输入如下命令：</span><br><span class="line">nginx</span><br></pre></td></tr></table></figure>
-<p>　　没有报错即为启动成功。　　7、访问验证：<br>　　　　打开浏览器访问localhost:8080,这里跟网上的一些教程会有些不一样，正常情况下到这一步就会能看到nginx的欢迎界面啦，然而博主却遇到了坑爹的情况（如果你能正常看到nginx欢迎界面，可以直接跳过这一步了）<br><img src="evernotecid://F61B24F4-DA59-4533-9B2C-152361C043B8/appyinxiangcom/22919934/ENNote/p15?hash=03a21d26b71e6a0b3217aae403e94872" alt="03a21d26b71e6a0b3217aae403e94872.png"></p>
-
           
         
       
@@ -529,7 +398,7 @@
 
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">桃宝村村长</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -542,8 +411,8 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -593,7 +462,7 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -601,7 +470,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -700,6 +569,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
